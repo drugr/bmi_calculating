@@ -12,16 +12,22 @@ if choose_function == '1':
 	bmi = weight / (height * height)
 	#	print(bmi) #算出BMI
 	if bmi < 18.5:
+		print('你的BMI是:', bmi)
 		print('你體重過輕啦~')
 	elif bmi >= 18.5 and bmi < 24:
+		print('你的BMI是:', bmi)
 		print('你身材剛好喔~')
 	elif bmi >= 24 and bmi <27:
+		print('你的BMI是:', bmi)
 		print('已經過重了呢!!')
 	elif bmi >= 27 and bmi < 30:
+		print('你的BMI是:', bmi)
 		print('已經輕度肥胖囉!!!!')
 	elif bmi >=30 and bmi <35:
+		print('你的BMI是:', bmi)
 		print('這個是中度肥胖喔...')
 	else:
+		print('你的BMI是:', bmi)
 		print('你這個是重度肥胖了，減減肥吧@@')
 elif choose_function == 2:
 	height = input('請輸入身高: ')
